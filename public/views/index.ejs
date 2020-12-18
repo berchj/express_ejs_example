@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+    <meta charset="utf-8"> 
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+  </head>  
+    <body id="page_proximos">
+    <div id="proximosp" class="row mb-3">
+      <% for (let i = 0; i < info.eventos.length; i++){%>
+        <div class="evento">
+          <ul>
+            <li><h3><%=info.eventos[i].nombre%></h3></li>
+            <li><%=info.eventos[i].fecha%></li>
+            <li><%=info.eventos[i].lugar%></li>
+            <li><%=info.eventos[i].descripcion%></li>
+            <li><%=info.eventos[i].precio%></li>
+          </ul>
+        </div>
+      <%}%>
+    </div>   
+  </body>
+
+  </html>

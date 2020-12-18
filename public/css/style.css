@@ -1,0 +1,24 @@
+.evento{
+    margin:0 auto;  
+    width: 50%;
+    text-align: center;   
+    background-color:#fff;
+    border-radius: 5px;
+}
+
+.evento
+>ul{
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+.evento
+>ul
+>li{
+    padding: 5px;
+}
+
+body{
+    background-color: aqua;
+}
