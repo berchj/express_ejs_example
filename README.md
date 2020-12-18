@@ -1,14 +1,12 @@
 # express_ejs_example
 
-consumir datos de un JSON desde express con ejs .
 
-pasos para usar : 
-1- git clone https://github.com/berchj/express_ejs_example.git en la carpeta donde se vaya a usar el proyecto
+consume data from a JSON from express with ejs.
+steps to use:
+1- type in the console "git clone https://github.com/berchj/express_ejs_example.git" in the folder where the project will be used
+2- type in the console "npm install" inside the cloned project folder to install the dependencies
+3- type in the console "npm run test" to start the application.
+4- go to the browser and put in the url http: //localhost:1100/
+for use with curl: curl -X GET http: //localhost:1100/
 
-2- tipear en la consola "npm install" dentro de la carpeta del proyecto clonado para instalar las dependencias
-
-3- tipear en la consola "npm run test" para iniciar la aplicación.
-
-para usar con curl: 
-curl -X GET http://localhost:1100/
 
